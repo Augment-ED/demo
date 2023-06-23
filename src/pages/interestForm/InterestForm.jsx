@@ -32,7 +32,7 @@ function InterestForm () {
                 subscriptionType: subscriptionType,
             })
             console.log(firstName, lastName, emailAddress, accountType, subscriptionType)
-            nav('/dashboard')
+            nav('/dashboard', { replace: true })
         }   
     }
 

@@ -10,7 +10,7 @@ function Login () {
 
   let nav = useNavigate();
   const navRegister = () => {
-    nav('/register')
+    nav('/register', { replace: true })
   }
 
   const forgotPass = (e) => {
@@ -46,7 +46,7 @@ function Login () {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log(userCredential.user)
-        nav('/dashboard')
+        nav('/dashboard', { replace: true })
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -75,7 +75,7 @@ function Login () {
         const token = credential.accessToken;
         const user = result.user;
         console.log(token, user)
-        nav('/interestForm')
+        nav('/interestForm', { replace: true })
       })
       .catch((error) => {
         const errorCode = error.code;

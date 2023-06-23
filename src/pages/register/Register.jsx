@@ -38,7 +38,7 @@ function Register () {
                             subscriptionType: subscriptionType,
                         })
                         console.log(firstName, lastName, accountType, email, password, confirmPassword, subscriptionType)
-                        nav('/dashboard')
+                        nav('/dashboard', { replace: true })
                 })
                     .catch((error) => {
                         const errorCode = error.code;
