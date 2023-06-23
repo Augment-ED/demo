@@ -11,6 +11,22 @@
     letter-spacing: -0.04em;
 }
 
+.augmented__dashboard-container button {
+    background: #12015f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 1rem 0;
+    outline: none;
+    padding: .5rem 1rem;
+    width: 100px;
+}
+    
 .augmented__dashboard-subjects {
     padding: 2rem 0 1rem;
 }
