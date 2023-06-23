@@ -57,11 +57,13 @@
     margin-bottom: 1rem;
 }
 
-.augmented__login-details__form a {
+.augmented__login-details__form button {
     font-family: var(--font-family);
     font-size: 14px;
     font-weight: 300;
     float: right;
+    border: none;
+    background: none;
     color: rgb(123, 2, 2)
 }
 

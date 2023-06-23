@@ -3,6 +3,8 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../logo.svg';
 import './navbar.css'
 import { useNavigate } from 'react-router-dom';
+import { auth } from '../../firebase';
+import { onAuthStateChanged } from "firebase/auth";
 
 function Navbar () {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,8 +14,17 @@ function Navbar () {
     nav("/", { replace: true})
   }
 
-  const navLogin = () => {
-    nav("/login", { replace: true})
+  const navLogin = (e) => {
+    e.preventDefault();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        nav("/dashboard", { replace: true})
+      }
+      else {
+        nav("/login", { replace: true })
+      }
+    })
+    
   }
   return (
     <div className="augmented__navbar gradient__bg">
