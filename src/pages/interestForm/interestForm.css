@@ -4,10 +4,6 @@
     flex-direction: row;
 }
 
-.augmented__navbar-sign button {
-    display: none;
-}
-
 .augmented__interestForm-subscriptions {
     flex: 1;
     display: flex;
