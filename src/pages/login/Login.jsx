@@ -75,7 +75,12 @@ function Login () {
         const token = credential.accessToken;
         const user = result.user;
         console.log(token, user)
-        nav('/interestForm', { replace: true })
+        if (user.metadata.creationTime === user.metadata.lastSignInTime) {
+          nav('/interestForm', { replace: true })
+        }
+        else {
+          nav('/dashboard', { replace: true })
+        }
       })
       .catch((error) => {
         const errorCode = error.code;
