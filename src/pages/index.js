@@ -1,0 +1,6 @@
+export { default as Home } from './home/Home';
+export { default as Login } from './login/Login';
+export { default as Register } from './register/Register';
+export { default as InterestForm } from './interestForm/InterestForm';
+export { default as Dashboard } from './dashboard/Dashboard';
+

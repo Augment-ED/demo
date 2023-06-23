@@ -1,0 +1,62 @@
+.augmented__team {
+    display: flex;
+    flex-direction: column;    
+    background: -moz-radial-gradient(circle at 0% 23%, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+
+        /* safari 5.1+,chrome 10+ */
+        background: -webkit-radial-gradient(circle at 0% 23%, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+      
+        /* opera 11.10+ */
+        background: -o-radial-gradient(circle at 0% 23%, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+      
+        /* ie 10+ */
+        background: -ms-radial-gradient(circle at 0% 23%, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+      
+        /* global 92%+ browsers support */
+        background: radial-gradient(circle at 0% 23%, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
+}
+
+.augmented__team-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.augmented__team-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+}
+
+.augmented__team-container {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 990px) {
+    .augmented__team-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .augmented__team-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .augmented__team-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .augmented__team-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .augmented__team-container {
+        flex-direction: column;
+    }
+}
