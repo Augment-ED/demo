@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/demo/static/css/main.cefa3fc4.css",
+    "main.js": "/demo/static/js/main.59904a12.js",
+    "static/media/loginGraphic.svg": "/demo/static/media/loginGraphic.10c456271f603f282736d531853301f8.svg",
+    "static/media/Shreyash.png": "/demo/static/media/Shreyash.9b6084676ea45a93c531.png",
+    "static/media/Avi.png": "/demo/static/media/Avi.d662528c1a62aa082c35.png",
+    "static/media/Josiah.png": "/demo/static/media/Josiah.62cf79137f1ce53bb3d0.png",
+    "static/media/Yuzhen.png": "/demo/static/media/Yuzhen.d4bedc9bada0b2fce7ed.png",
+    "static/media/Parthit.png": "/demo/static/media/Parthit.f17a490302bdc1d0255f.png",
+    "static/media/cell.png": "/demo/static/media/cell.12ce6a6ef10335bf3724.png",
+    "static/media/graphic.svg": "/demo/static/media/graphic.d5ac081ae84c4fd4fe2ed8b950409676.svg",
+    "static/media/instagram.png": "/demo/static/media/instagram.3c5c461f83cc7069a13f.png",
+    "static/media/github.png": "/demo/static/media/github.f3d873d71aa989badfd2.png",
+    "static/media/google.png": "/demo/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/linkedin.png": "/demo/static/media/linkedin.d21b834035baa551e886.png",
+    "static/media/twitter.png": "/demo/static/media/twitter.802534bf2678c3afb41d.png",
+    "static/media/logo.svg": "/demo/static/media/logo.f9e3f156f03f899d5e4f1c01c3c0a749.svg",
+    "index.html": "/demo/index.html",
+    "main.cefa3fc4.css.map": "/demo/static/css/main.cefa3fc4.css.map",
+    "main.59904a12.js.map": "/demo/static/js/main.59904a12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefa3fc4.css",
+    "static/js/main.59904a12.js"
+  ]
+}
