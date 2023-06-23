@@ -16,7 +16,7 @@ function Dashboard () {
 
   return (
     <div className='augmented__dashboard-container section__padding gradient__bg'>
-        <h1 className='gradient__text'>Welcome, Shreyash Gupta!</h1>
+        <h1 className='gradient__text'>Welcome to AugmentED!</h1>
         <button onClick={navLogin}>Logout</button>
         <div className='augmented__dashboard-subjects'>
           <h2>Biology</h2>
